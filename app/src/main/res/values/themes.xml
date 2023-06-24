@@ -1,0 +1,14 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Recipe_Guide" parent="Theme.Material3.DayNight.NoActionBar">
+       <item name="colorPrimary">@color/purple_2</item>
+        <item name="colorPrimaryVariant">@color/purple</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/azure</item>
+        <item name="colorSecondaryVariant">@color/cream</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <item name="android:statusBarColor" tools:targetApi="1">?attr/colorPrimaryVariant</item>
+    </style>
+
+    <style name="Theme.Recipe_Guide" parent="Base.Theme.Recipe_Guide" />
+</resources>

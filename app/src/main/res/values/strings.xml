@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Recipe_Guide</string>
+
+    <string name="heading_1">Welcome Cheffff</string>
+    <string name="heading_2">Get access to best recipes</string>
+    <string name="heading_3">Step by step guide</string>
+
+    <string name="des_1">Discover the latest recipes to spice up your life</string>
+    <string name="des_2">Enjoy great meal with our excuisite recipes</string>
+    <string name="des_3">Reinvent your cooking skill and become a 5 star chef overnight</string>
+
+
+
+
+</resources>
