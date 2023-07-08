@@ -1,99 +1,118 @@
-<?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+<!-- activity_about.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/layout_background">
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="20dp">
 
-
-    <TextView
-        android:id="@+id/settings_textview"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="51dp"
-        android:layout_marginEnd="100dp"
-        android:text="App Settings"
-        android:textColor="@color/design_default_color_background"
-        android:textSize="34sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@drawable/one" />
 
     <TextView
-        android:id="@+id/theme_label_textview"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="42dp"
-        android:layout_marginTop="178dp"
-        android:text="Switch Between Themes"
-        android:textColor="@color/material_dynamic_neutral50"
-        android:textSize="20sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:text="- Rene "
+        android:textColor="@android:color/black"
+        android:textSize="18sp" />
 
     <TextView
-        android:id="@+id/theme1_textview"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="80dp"
-        android:layout_marginBottom="12dp"
-        android:text="Themes"
-        android:textColor="@color/design_default_color_background"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toTopOf="@+id/theme_label_textview"
-        app:layout_constraintStart_toStartOf="parent" />
+        android:text="- Umar"
+        android:textColor="@android:color/black"
+        android:textSize="18sp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="- Razak"
+        android:textColor="@android:color/black"
+        android:textSize="18sp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="- Rayaan"
+        android:textColor="@android:color/black"
+        android:textSize="18sp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="- Abdul"
+        android:textColor="@android:color/black"
+        android:textSize="18sp" />
 
     <TextView
-        android:id="@+id/user_experience_textview"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="42dp"
-        android:text="User Experience"
-        android:textColor="@color/design_default_color_background"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="@+id/excellent_checkbox"
-        app:layout_constraintStart_toStartOf="parent" />
+        android:text="\nApp Description:"
+        android:textColor="@android:color/black"
+        android:textSize="24sp"
+        android:textStyle="bold" />
 
     <TextView
-        android:id="@+id/user_experience_label_textview"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:text="Rate Our Services"
-        android:textColor="@color/material_dynamic_neutral40"
-        android:textSize="20sp"
-        app:layout_constraintStart_toStartOf="@+id/user_experience_textview"
-        app:layout_constraintTop_toBottomOf="@+id/user_experience_textview" />
+        android:text="This app provides a collection of delicious recipes to help you explore your culinary skills. From appetizers to desserts, you'll find a wide variety of recipes to satisfy your taste buds."
+        android:textColor="@android:color/black"
+        android:textSize="18sp" />
 
-    <CheckBox
-        android:id="@+id/excellent_checkbox"
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="296dp"
-        android:layout_marginTop="308dp"
-        android:text="good"
-        android:textColor="@color/design_default_color_background"
-        android:textSize="20sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:text="\nApp Version:"
+        android:textColor="@android:color/black"
+        android:textSize="24sp"
+        android:textStyle="bold" />
 
-    <CheckBox
-        android:id="@+id/poor_checkbox"
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Poor"
-        android:textColor="@color/design_default_color_background"
-        android:textSize="20sp"
-        app:layout_constraintStart_toStartOf="@+id/excellent_checkbox"
-        app:layout_constraintTop_toBottomOf="@+id/excellent_checkbox" />
+        android:text="1.0.0"
+        android:textColor="@android:color/black"
+        android:textSize="18sp" />
 
-    <com.google.android.material.chip.Chip
-        android:id="@+id/chip4"
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="151dp"
-        android:layout_marginEnd="23dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-</androidx.constraintlayout.widget.ConstraintLayout>
+        android:text="\nContact Us:"
+        android:textColor="@android:color/black"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email: sambourene9@gmail.com"
+        android:textColor="@android:color/black"
+        android:textSize="18sp" />
+
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="\nAcknowledgements:"
+        android:textColor="@android:color/black"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Special thanks to libraries, resources, and individuals who contributed to the development of this app."
+        android:textColor="@android:color/black"
+        android:textSize="18sp" />
+
+</LinearLayout>

@@ -4,11 +4,14 @@
     <color name="white">#FFFFFF</color>
     <color name="azure">#FF00BCD4</color>
     <color name="purple">#9F2B68</color>
+    <color name="purple_light">#F879BC</color>
     <color name="purple_2">#800080</color>
     <color name="cream">#fde8b6</color>
     <color name="inactive">#684442</color>
     <color name="black">#000000</color>
     <color name="active">#3675F4</color>
+    <color name="crimson">#EF066C</color>
+
 
 
 </resources>

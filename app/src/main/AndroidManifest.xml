@@ -58,6 +58,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".MainActivity2" />
+        <activity android:name=".Signup" />
         <activity android:name=".RecipeDetailsActivity" />
         <activity android:name=".page2" />
         <activity android:name=".settings" />

@@ -15,7 +15,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
-        android:text="Settings" />
+        android:text="About" />
 
     <TextView
         android:id="@+id/textViewTitle"

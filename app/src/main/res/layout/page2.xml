@@ -1,44 +1,64 @@
-<?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical">
-
-    <ImageView
-        android:id="@+id/titleimage"
-        android:layout_width="match_parent"
-        android:layout_height="367dp"
-        android:layout_marginTop="10dp"
-        android:src="@drawable/one" />
+    android:background="@color/purple_light"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="20dp">
 
     <TextView
-        android:id="@+id/texttitle"
-        android:layout_width="match_parent"
+        android:id="@+id/textViewWelcome"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="50dp"
         android:fontFamily="sans-serif-medium"
-        android:text="Welcome Cheff!"
+        android:text="Welcome "
         android:textAlignment="center"
-        android:textColor="@color/purple"
-        android:textSize="20dp" />
+        android:textColor="@color/purple_2"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:shadowColor="#80000000"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="4" />
+    <TextView
+        android:id="@+id/texttitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-medium"
+
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:shadowColor="#80000000"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="4" />
 
     <TextView
         android:id="@+id/textdes"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="50dp"
-        android:text="Discover New Recipes to spice up your life. Start your journey today"
+        android:layout_marginTop="24dp"
+        android:text="Discover new recipes to spice up your life. Start your culinary journey today!"
         android:textAlignment="center"
-        android:textColor="@color/purple_2"
-        android:textSize="20dp" />
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:shadowColor="@color/purple_2"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="4" />
 
-    <Button
+    <com.google.android.material.button.MaterialButton
         android:id="@+id/nextbtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="24dp"
-        android:background="@color/purple"
-        android:text="View Recipes" />
-
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="@color/purple_2"
+        android:textColor="@android:color/white"
+        android:text="Next" />
 
 </LinearLayout>
