@@ -1,8 +1,8 @@
 <<<<<<< HEAD
 # Group-22
 # Github repository and Student id
-umar229    10982248
-ReneSambou 10952445
+### umar229    10982248
+### ReneSambou 10952445
 # Habibi Recipe Guide
 The Recipe Guide App is a mobile application that provides a collection of delicious recipes to help users explore their culinary skills. From appetizers to desserts, users can find a wide variety of recipes to satisfy their taste buds.
 The app was created as part of a team project for DCIT202 course at the University of Ghana.
