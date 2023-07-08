@@ -16,16 +16,16 @@ public class page2 extends Activity {
         TextView textViewWelcome = findViewById(R.id.textViewWelcome);
         TextView textViewUsername = findViewById(R.id.texttitle);
 
-        // Retrieve the username from the intent extras
+
         Intent intent = getIntent();
         String username = intent.getStringExtra("USERNAME");
 
-        // Concatenate the welcome message with the username
+
         String welcomeMessage = "Welcome " + username;
 
-        // Display the welcome message and username in the TextViews
+
         textViewWelcome.setText(welcomeMessage);
-        //textViewUsername.setText(username);
+
 
         Button button = findViewById(R.id.nextbtn);
         button.setOnClickListener(new View.OnClickListener() {
