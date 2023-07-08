@@ -24,4 +24,18 @@ The app was created as part of a team project for DCIT202 course at the Universi
 ## Development Setup
 
 To set up the development environment for the Recipe Guide App, follow these steps:
+1. Clone the repository from GitHub: (https://github.com/dcit202Andriod/Group-22)
+
+2. Open the project in Android Studio.
+3. Build and run the app on an emulator or a physical device.
+
+## Contributing
+
+We welcome contributions from the community to improve the Recipe Guide App. 
+## Contact
+
+If you have any questions, suggestions, or feedback, please feel free to reach out to us at `your-email@example.com`.
+
+Happy cooking!
+
 
