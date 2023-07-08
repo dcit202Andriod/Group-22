@@ -1,6 +1,6 @@
 <<<<<<< HEAD
 # Group-22
-Github repository and Student id
+# Github repository and Student id
 umar229    10982248
 ReneSambou 10952445
 # Habibi Recipe Guide
