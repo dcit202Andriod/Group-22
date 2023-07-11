@@ -5,20 +5,17 @@
 ### umar229    10982248
 ### ReneSambou 10952445
 ### RMUKTAR001 10952895
-###GideonAnderson 10976211
+### GideonAnderson 10976211
+
 # Habibi Recipe Guide
 The Recipe Guide App is a mobile application that provides a collection of delicious recipes to help users explore their culinary skills. From appetizers to desserts, users can find a wide variety of recipes to satisfy their taste buds.
 The app was created as part of a team project for DCIT202 course at the University of Ghana.
 ## Features
 
+- Signup and login feature
 - Browse a diverse collection of recipes.
 - View detailed recipe instructions and ingredients.
-- Save favorite recipes for easy access.
-- Search for recipes based on keywords or categories.
-- Share recipes with friends and family.
 - Explore popular and trending recipes.
-- Customize recipe preferences and dietary restrictions.
-- Get inspired with daily recipe recommendations.
 - User-friendly interface with intuitive navigation.
 
 ## Development Setup
@@ -34,7 +31,7 @@ To set up the development environment for the Recipe Guide App, follow these ste
 We welcome contributions from the community to improve the Recipe Guide App. 
 ## Contact
 
-If you have any questions, suggestions, or feedback, please feel free to reach out to us at `your-email@example.com`.
+If you have any questions, suggestions, or feedback, please feel free to reach out to us at sambourene9@gmail.com
 
 Happy cooking!
 
