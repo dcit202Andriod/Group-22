@@ -234,11 +234,7 @@ public class MainActivity2 extends AppCompatActivity {
                 "½ cup heavy cream, heated\n", "instructiions:\n"+"Step 1: Melt butter in a large soup pot over medium heat. Add onions, celery, and carrot and sauté until soft, 5 to 7 minutes. Add flour and curry, and cook 5 more minutes, stirring frequently. Add chicken broth, mix well, and bring to a boil. Reduce heat and simmer for about 30 minutes.\n" +
                 "Step 2: Add apple, rice, chicken, thyme, salt, and pepper. Simmer until rice is tender, 15 to 20 minutes.\n" +
                 "Step 3: Just before serving, stir in hot cream." ));
-        recipeStorage.addRecipe(new Recipe("Ghanaian Jollof Rice", "Ingredients: ", "instructiions: " ));
-        recipeStorage.addRecipe(new Recipe("Ghanaian Jollof Rice", "Ingredients: ", "instructiions: " ));
-        recipeStorage.addRecipe(new Recipe("Ghanaian Jollof Rice", "Ingredients: ", "instructiions: " ));
-        recipeStorage.addRecipe(new Recipe("Ghanaian Jollof Rice", "Ingredients: ", "instructiions: " ));
-        recipeStorage.addRecipe(new Recipe("Ghanaian Jollof Rice", "Ingredients: ", "instructiions: " ));
+
 
 
 
