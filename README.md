@@ -11,7 +11,7 @@
 ### Khqcooza  10977457
 
 # Group Members roles and contributions
-### Khqcooza  10977457: Worked on the recipe details page by adding recipes to the page.
+### Khqcooza  10977457 : Worked on the recipe details page by adding recipes to the page.
 ### DANYAL-HAMZA 10944646: Designed the homepage 
 ### emmanuelgith  10947433: Designed the onboarding page.
 ### umar229    10982248: Designed the recipe page
