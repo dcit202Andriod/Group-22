@@ -9,19 +9,13 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
-import com.google.android.material.button.MaterialButton;
 
 public class Signin extends AppCompatActivity {
 
     EditText username;
     EditText password;
     Button loginButton;
-
     Button registerButton;
-
-
-
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -33,23 +27,28 @@ public class Signin extends AppCompatActivity {
         loginButton = findViewById(R.id.loginButton);
         registerButton = findViewById(R.id.register);
 
-        Intent intent = new Intent(Signin.this, Signup.class);
+        Intent signupIntent = getIntent();
+        String signupUsername = signupIntent.getStringExtra("USERNAME");
+        String signupPassword = signupIntent.getStringExtra("PASSWORD");
+
+        username.setText(signupUsername);
 
         loginButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if (username.getText().toString().equals("Rene") && password.getText().toString().equals("1234")) {
+                String enteredUsername = username.getText().toString();
+                String enteredPassword = password.getText().toString();
+
+                if (enteredUsername.equals(signupUsername) && enteredPassword.equals(signupPassword)) {
                     Toast.makeText(Signin.this, "Login Successful!", Toast.LENGTH_SHORT).show();
 
-                    // Start the second activity here
+
                     Intent intent = new Intent(Signin.this, page2.class);
                     startActivity(intent);
                 } else {
                     Toast.makeText(Signin.this, "Login Failed!", Toast.LENGTH_SHORT).show();
                 }
             }
-
-
         });
 
         registerButton.setOnClickListener(new View.OnClickListener() {
@@ -57,6 +56,7 @@ public class Signin extends AppCompatActivity {
             public void onClick(View view) {
                 // Start the Signup activity here
                 Intent intent = new Intent(Signin.this, Signup.class);
+
                 startActivity(intent);
             }
         });
