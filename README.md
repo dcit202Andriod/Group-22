@@ -18,7 +18,7 @@
 ### RMUKTAR001 10952895: Designed the about app page
 ### 1realoffset 10956566: Worked on the recipe details page.
 ### GideonAnderson 10976211: Worked on the recipedetails page.
-### ReneSambou 10952445: Designed and implemented the functionalities for the signin and signup page.  Implemented the appropriate navigations between pages
+### ReneSambou 10952445:  Designed and implemented the functionalities for the signin and signup page.  Implemented the appropriate navigations between pages
 
 
 
