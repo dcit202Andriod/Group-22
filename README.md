@@ -8,7 +8,6 @@
 ### RMUKTAR001 10952895
 ### GideonAnderson 10976211
 ### 1realoffset 10956566
-### Khqcooza   10977457
 
 # Group Members roles and contributions
 ### DANYAL-HAMZA 10944646: Designed the homepage 
