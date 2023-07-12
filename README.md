@@ -6,6 +6,9 @@
 ### ReneSambou 10952445
 ### RMUKTAR001 10952895
 ### GideonAnderson 10976211
+### Daniel Elijah Gyan 10956566
+
+
 
 # Habibi Recipe Guide
 The Recipe Guide App is a mobile application that provides a collection of delicious recipes to help users explore their culinary skills. From appetizers to desserts, users can find a wide variety of recipes to satisfy their taste buds.
