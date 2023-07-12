@@ -1,4 +1,5 @@
 #  Group-22
+
 # Github repository and Student id 
 ### emmanuelgith  10947433
 ### DANYAL-HAMZA 10944646
@@ -7,7 +8,21 @@
 ### RMUKTAR001 10952895
 ### GideonAnderson 10976211
 ### 1realoffset 10956566
-### Khqcooza- 10977457
+### Khqcooza  10977457
+
+# Group Members roles and contributions
+### Khqcooza  10977457: Worked on the recipe details page by adding recipes to the page.
+### DANYAL-HAMZA 10944646: Designed the homepage 
+### emmanuelgith  10947433: Designed the onboarding page.
+### umar229    10982248: Designed the recipe page
+### RMUKTAR001 10952895: Designed the about app page
+### 1realoffset 10956566: Worked on the recipe details page.
+### GideonAnderson 10976211: Worked on the recipedetails page.
+### ReneSambou 10952445: Designed and implemented the functionalities for the signin and signup page.  Implemented the appropriate navitions between pages
+
+
+
+
 
 
 
