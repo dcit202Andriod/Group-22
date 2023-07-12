@@ -17,6 +17,7 @@ The app was created as part of a team project for DCIT202 course at the Universi
 - View detailed recipe instructions and ingredients.
 - Explore popular and trending recipes.
 - User-friendly interface with intuitive navigation.
+- For the best user experience, we recommend using the app in light mode.
 
 ## Development Setup
 
