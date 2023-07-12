@@ -13,7 +13,7 @@
 # Group Members roles and contributions
 ### DANYAL-HAMZA 10944646: Designed the homepage 
 ### emmanuelgith  10947433: Designed the onboarding page.
-### umar229    10982248: Designed the recipe page
+### umar229    10982248: Designed the recipe page.
 ### RMUKTAR001 10952895: Designed the about app page
 ### 1realoffset 10956566: Worked on the recipe details page.
 ### GideonAnderson 10976211: Worked on the recipedetails page.
